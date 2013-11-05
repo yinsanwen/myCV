@@ -1,0 +1,112 @@
+%% start of file `david_gao.tex'.
+%% Copyright 2007 David Gao.
+%
+
+\documentclass[11pt]{moderncvchn}
+
+% moderncv styles
+%\moderncvstyle{casual}       % optional argument are 'nocolor' (black & white cv) and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvstyle{classic}       % idem
+
+\usepackage{times,marvosym,url,thumbpdf}
+% character encoding
+\usepackage[utf8]{inputenc}   % replace by the encoding you are using
+
+% personal data (the given example is exhaustive; just give what you want)
+\firstname{尹三文} \familyname{}
+\title{个人简历}
+\address{\Writinghand ~湖北省武汉市华中科技大学\\软件学院北楼404实验室\\430074}  % for classic style
+%\address{12 somestreet, 3456 somecity} % for casual style
+\phone{158 7240 8511}
+\email{yinsanwen@163.com}
+\extrainfo{\weblink{blog.sanween.info}}
+%\photo[80pt]{yinsanwen.jpg} % also optional, and the optional argument is the height the picture must be resized to
+\quote{Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius -- and a lot of courage -- to move in the opposite direction.}% also optional
+
+%\renewcommand{\listsymbol}{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}} % define another symbol to be used in front of the list items
+
+% the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt}
+
+% slanted small caps (only with roman family; the sans serif font doesn't exists :-()
+%\usepackage{slantsc}
+%\DeclareFontFamily{T1}{myfont}{}
+%\DeclareFontShape{T1}{myfont}{m}{scsl}{ <-> cork-lmssqbo8}{}
+%\usefont{T1}{myfont}{m}{scsl}Testing the font
+
+% command and color used in this document, independently from moderncv
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+%\makequote
+
+\section{教育背景}
+\cventry{2012--至今}{华中科技大学}{软件工程}{研究生在读}{2015年3月毕业}{}
+\cventry{2005--2009}{成都信息工程学院}{软件工程}{本科}{}{}
+%%\cventry{时间}{取得的学位}{专业}{学校}{成绩排名，年级人数}{毕业时间:~2008~年~7~月}
+
+\section{项目经历}
+\cventry{2013/04--至今}{华为公司内部应用—iCase案例搜索}{java,Spring,REST,Mahout,Oracle}{}{}
+{\textbf{项目简述：}为华为公司内部开发一套对故障问题的解决案例进行存储和搜索的平台。用户遇到问题可以在平台内进行案例的搜索来解决相应的问题，另一方面，系统可以根据用户的行为记录和属性对用户进行相关案例的推荐。系统主要功能包括案例的存储，搜索，以及关于案例缺口和故障树的分析，还包括对用户的个性化定制和个性化推荐。
+\newline\textbf{个人职责：}主要负责用户的个性化定制和个性化推荐模块。通过计算文本相似度，以及通过协同过滤，聚类和矩阵分解等多种手段来为用户进行推荐}
+
+\cventry{2009-2010}{视频分享点播平台}{PHP,Smarty,Mysql,Nginx,C}{web项目}{}
+{\textbf{项目简述：}定位教育视频资源的收集和分享。类似目前的一些在线视频播放网站。主要功能包括上传，转码，存储，审核，播放，评论等等。
+\newline\textbf{个人职责：}主要通过php+smarty处理业务逻辑部分，以及一部分前台页面和后端服务器转码和调用接口的编写。}
+
+
+\section{工作经历}
+\cventry{2012/04--2012/08}{武汉网上网科技有限公司}{PHP Developer}{}{}{负责日常网站的维护，对现有的网站进行升级和修改}
+\cventry{2009/08--2011/05}{成都启迪信息技术有限公司}{PHP开发工程师}{}{}{参与和负责项目实施中各个方面的设计和编码}
+
+\section{语言能力}
+\cventry{英语}{CET-6}{能够流利的阅读英文书籍和文档}{}{}{}
+
+\section{专业能力}
+\cvcomputer{语言}{JAVA, C, PHP, Python}{编辑器}{Eclipse, Sublime Text, VIM}
+\cvcomputer{Web}{HTML, Javascript, Jquery, CSS}{排版}{Markdown, LaTeX, Word}
+\cvcomputer{数据库}{MySQL, Oracle}{OS}{Linux, Windows}
+\cvcomputer{机器学习}{Mahout, Hadoop}{VCS}{svn, git, github}
+%\cvcomputer{Maching Lea}
+%\cvcomputer{其它}{其它描述}{其它描述}{其它描述}
+%\cvcomputer{OS}{Linux, Unix, Windows}{administration}{Apache, Mailman}
+%\cvcomputer{programming}{\textsc{Java}, C/C++}{scripting}{PHP, Shell, Ruby}
+%\pagebreak{}
+%\newpage
+\pagebreak{4}
+\section{自我评价}
+\cvitem{}{对技术狂热，喜欢研究，爱好折腾，有轻微代码洁癖。有非常强的学习欲望，并有刻苦踏实的学习精神。}
+\cvitem{}{乐于分享，愿意交流。认为一个人的力量是有限的，好的团队的力量是无穷的。希望能加入一只充满激情，充满战斗力的团队并肩作战。}
+%\listitem {对技术狂热，喜欢研究，爱好折腾，有轻微代码洁癖。有非常强的学习欲望，并有刻苦踏实的学习精神。}
+%\listitem {}
+%\listitem {自主学习意识和能力强，喜欢钻研新技术，好读书，求甚解，敢于面对和克服困难；}
+%\listitem {勇于实践，有比较强的动手能力，有很好的分析问题与解决问题的能力；}
+%\closesection{}
+
+
+%\section{主要课程}
+
+%\section{业余爱好}
+%\cvitem{黑魔法}{\small 我是一个黑魔法迷。。。}
+%\cvitem{其它}{其它描述。。。}
+
+\emptysection{}
+%\cvitem{Now}{Back to moderncv layout, without making a new section :-)}
+
+\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{your_publications}
+
+\end{document}
+
+
+%% end of file `harry.tex'.

@@ -1,0 +1,113 @@
+%% start of file `david_gao.tex'.
+%% Copyright 2007 David Gao.
+%
+
+\documentclass[11pt]{moderncvchn}
+
+% moderncv styles
+%\moderncvstyle{casual}       % optional argument are 'nocolor' (black & white cv) and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvstyle{classic}       % idem
+
+\usepackage{times,marvosym,url,thumbpdf}
+% character encoding
+\usepackage[utf8]{inputenc}   % replace by the encoding you are using
+
+% personal data (the given example is exhaustive; just give what you want)
+\firstname{尹三文} \familyname{}
+\title{个人简历}
+\address{\Writinghand ~湖北省武汉市华中科技大学\\软件学院北楼404实验室\\430074}  % for classic style
+%\address{12 somestreet, 3456 somecity} % for casual style
+\phone{158 7240 8511}
+\email{yinsanwen@163.com}
+\extrainfo{\weblink{blog.sanween.info}}
+\photo[80pt]{harry.jpg} % also optional, and the optional argument is the height the picture must be resized to
+\quote{Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius -- and a lot of courage -- to move in the opposite direction.}% also optional
+
+%\renewcommand{\listsymbol}{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}} % define another symbol to be used in front of the list items
+
+% the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt}
+
+% slanted small caps (only with roman family; the sans serif font doesn't exists :-()
+%\usepackage{slantsc}
+%\DeclareFontFamily{T1}{myfont}{}
+%\DeclareFontShape{T1}{myfont}{m}{scsl}{ <-> cork-lmssqbo8}{}
+%\usefont{T1}{myfont}{m}{scsl}Testing the font
+
+% command and color used in this document, independently from moderncv
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+%\makequote
+
+\section{教育背景}
+\cventry{2012--至今}{华中科技大学}{软件工程}{研究生在读}{2015年3月毕业}{}
+\cventry{2005--2009}{成都信息工程学院}{软件工程}{本科}{}{}
+%%\cventry{时间}{取得的学位}{专业}{学校}{成绩排名，年级人数}{毕业时间:~2008~年~7~月}
+
+\section[工作经历]
+\cventry{2009.8--2011.5}{成都启迪信息技术有限公司}{软件工程}{PHP开发工程师}{}{}
+|
+
+
+\section{学位论文}
+\cvitem{题目}{\emph{九又四分之三站台研究}}
+\cvitem{导师}{邓不利多教授}
+\cvitem{摘要}{\small 对九又四分之三站台的实现过程进行了研究。并提出了一种基于古老的精灵咒语的新的实现方法。\dots}
+
+\section{项目经历}
+\cventry{2006--至今}{与死圣}{}{}{}{}
+\cventry{2004--2005}{与混血王子}{}{}{}{}
+\cventry{2001--2003}{与凤凰社}{霍格沃茨}{魔法部}{组建邓不利多军，教同学魔法；打败伏地魔}{参见《魔法日报》}
+\cventry{1999--2000}{与火焰杯}{}{}{}{}
+\cventry{1998--1999}{与阿兹卡班囚徒}{}{}{}{}
+\cventry{1997--1998}{与密室}{}{}{}{}
+\cventry{1990--1997}{与魔法石}{}{}{}{}
+%\cventry{时间}{顶目描述}{地点}{其它}{主要工作描述}{可供参考的资料，如个人网站等}
+
+\section{语言能力}
+\cvlanguage{English}{母语}{}
+%\cvlanguage{French}{熟练}{较好的读说听写能力}
+\cvlanguage{精灵语}{4~级}{能熟练施展咒语}
+%\cvlanguage{拉丁语}{初级}{简单听说}
+\cvlanguage{汉语}{初级}{能与张秋简单交流}
+
+\section{专业能力}
+\cvcomputer{语言}{JAVA}{C}{PHP}{Python}
+\cvcomputer{Web}{HTML}{Javascript,Jquery}{CSS}
+\cvcomputer{数据库}{MySQL}{Oracle}
+\cvcomputer{VCS}{svn}{git,github}
+\cvcomputer{Maching Lea}
+%\cvcomputer{其它}{其它描述}{其它描述}{其它描述}
+%\cvcomputer{OS}{Linux, Unix, Windows}{administration}{Apache, Mailman}
+%\cvcomputer{programming}{\textsc{Java}, C/C++}{scripting}{PHP, Shell, Ruby}
+
+%\closesection{}
+%\pagebreak{}
+
+%\section{主要课程}
+
+\section{业余爱好}
+\cvitem{黑魔法}{\small 我是一个黑魔法迷。。。}
+%\cvitem{其它}{其它描述。。。}
+
+\emptysection{}
+%\cvitem{Now}{Back to moderncv layout, without making a new section :-)}
+
+\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{your_publications}
+
+\end{document}
+
+
+%% end of file `harry.tex'.
