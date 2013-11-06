@@ -14,7 +14,7 @@
 
 % personal data (the given example is exhaustive; just give what you want)
 \firstname{尹三文} \familyname{}
-\title{个人简历}
+\belive{个人简历}
 \address{\Writinghand ~湖北省武汉市华中科技大学\\软件学院北楼404实验室\\430074}  % for classic style
 %\address{12 somestreet, 3456 somecity} % for casual style
 \phone{158 7240 8511}
@@ -66,6 +66,7 @@
 
 \section{工作经历}
 \cventry{2012/04--2012/08}{武汉网上网科技有限公司}{PHP Developer}{}{}{负责日常网站的维护，对现有的网站进行升级和修改}
+
 \cventry{2009/08--2011/05}{成都启迪信息技术有限公司}{PHP开发工程师}{}{}{参与和负责项目实施中各个方面的设计和编码}
 
 \section{语言能力}
@@ -76,13 +77,18 @@
 \cvcomputer{Web}{HTML, Javascript, Jquery, CSS}{排版}{Markdown, LaTeX, Word}
 \cvcomputer{数据库}{MySQL, Oracle}{OS}{Linux, Windows}
 \cvcomputer{机器学习}{Mahout, Hadoop}{VCS}{svn, git, github}
+\cvcomputer{}{}{}{}
 %\cvcomputer{Maching Lea}
 %\cvcomputer{其它}{其它描述}{其它描述}{其它描述}
 %\cvcomputer{OS}{Linux, Unix, Windows}{administration}{Apache, Mailman}
 %\cvcomputer{programming}{\textsc{Java}, C/C++}{scripting}{PHP, Shell, Ruby}
 %\pagebreak{}
 %\newpage
-\pagebreak{4}
+\section{社会活动}
+\cvitem{本科}{班级学习委员}
+\cvitem{本科}{学生会组织部 干事}
+\cvitem{2009年}{校级一等奖学金}
+
 \section{自我评价}
 \cvitem{}{对技术狂热，喜欢研究，爱好折腾，有轻微代码洁癖。有非常强的学习欲望，并有刻苦踏实的学习精神。}
 \cvitem{}{乐于分享，愿意交流。认为一个人的力量是有限的，好的团队的力量是无穷的。希望能加入一只充满激情，充满战斗力的团队并肩作战。}
